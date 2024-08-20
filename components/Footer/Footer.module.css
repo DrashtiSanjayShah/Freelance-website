@@ -52,6 +52,7 @@
     border: none;
     outline: none;
     width: 90%;
+    font-size: 19px;
     color: var(--shadow-dark-color);
 }
 
@@ -61,7 +62,7 @@
 
 .subscribe_box_send{
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .subscribe_box_info{

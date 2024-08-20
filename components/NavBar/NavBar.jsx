@@ -6,8 +6,7 @@ import { MdNotifications } from "react-icons/md";
 import { BsSearch } from "react-icons/bs";
 import { CgMenuLeft, CgMenuRight } from "react-icons/cg";
 import { Discover, HelpCenter, Notification, Profile, SideBar } from "./index";
-import { Button } from "../compindex";
-import logo from "../../images/logo.jpg";
+import logo from "../../images/logo.png";
 import user1 from "../../images/user1.jpg";
 
 const NavBar = () => {
@@ -73,8 +72,9 @@ const NavBar = () => {
     <div className={Style.navbar}>
       <div className={Style.navbar_container}>
         <div className={Style.navbar_container_left}>
+          <Link href = '/'>
           <Image src={logo} alt="logo" width={100} height={100} />
-
+          </Link>
           <div className={Style.navbar_container_left_box_input}>
             <div className={Style.navbar_container_left_box_input_box}>
               <input type="text" placeholder="Search Services" />

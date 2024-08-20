@@ -14,7 +14,7 @@ import {RiSendPlaneFill} from 'react-icons/ri';
 
 //INTERNAL IMPORT
 import Style from "./Footer.module.css";
-import logo from "../../images/logo.jpg";
+import logo from "../../images/logo.png";
 import { Discover, HelpCenter } from "../NavBar/index";
 
 

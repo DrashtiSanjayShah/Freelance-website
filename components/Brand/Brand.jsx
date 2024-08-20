@@ -2,7 +2,7 @@ import React from "react";
 import Style from "./Brand.module.css";
 import Image from "next/image";
 import { Button } from "../compindex";
-import logo from "../../images/logo.jpg"; 
+import logo from "../../images/logo.png"; 
 import cbg1 from "../../images/cbg1.jpg";
 const Brand = () => {
   return (
